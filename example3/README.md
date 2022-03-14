@@ -28,7 +28,7 @@
 
 ## Видео с объяснением как это все работает здесь:
 
-https://youtu.be/-R3fA4cVWFM
+https://youtu.be/hMtQKROmHZs
 
 
 ## Другие видео по  Codova:
