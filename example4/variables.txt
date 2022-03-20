@@ -1,0 +1,14 @@
+
+#env variables
+export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/Contents/Home/
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/
+export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator/
+export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools/30.0.3/
+
+#install build tools
+sdkmanager --install "build-tools;30.0.3"
+
+sdkmanager --uninstall "build-tools;33.0.0-rc1"
